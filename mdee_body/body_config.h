@@ -19,8 +19,8 @@
 #define BATTERY_R_LOWER_OHM  22000.0f
 // Fine calibration: meter reading / robot reading (1.00 = none). See BATTERY_WIRING.md.
 #define BATTERY_CAL_FACTOR   1.00f
-#define BATTERY_EMPTY_V      9.6f
-#define BATTERY_FULL_V       12.6f
+#define BATTERY_EMPTY_V      6.6f
+#define BATTERY_FULL_V       8.4f
 
 // ---- NeoPixel x2 ----
 #define NEOPIXEL_PIN   GPIO_NUM_2
